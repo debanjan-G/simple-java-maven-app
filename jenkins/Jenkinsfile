@@ -30,7 +30,7 @@ pipeline {
 
         stage("Finished"){
             steps{
-            sh "Pipeline finished successfully."
+            echo "Pipeline finished successfully."
             }
         }
     }
